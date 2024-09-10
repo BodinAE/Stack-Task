@@ -24,13 +24,13 @@ namespace Stack_Task
         //    this.Length = length;
         //}
 
-        public My_list()
+        public My_list()                       //creates an empty list
         {
             Head = null;
             Tail = Head;
             Length = 0;
         }
-        public My_list(int input)
+        public My_list(int input)               //creates a list with one element
         {
             Head = new Node(input);
             Tail = Head;
@@ -71,12 +71,12 @@ namespace Stack_Task
             return Tail.Get();
         }
 
-        public int GetLength() 
+        public int GetLength()                  //returns the length of the list
         { 
             return Length; 
         }
 
-        public My_list Copy()
+        public My_list Copy()                   //creates an identical list
         {
             My_list output = new My_list(this.GetHeadNode());
             Node? currnode = this.Head.Next;

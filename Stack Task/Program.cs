@@ -18,6 +18,8 @@
                 Console.WriteLine("Press  [5] to push to stack copy");
                 Console.WriteLine("Press  [6] to pop from stack copy");
                 Console.WriteLine("Press  [7] to print stack copy");
+                Console.WriteLine("Press  [8] to print average of stack");
+                Console.WriteLine("Press  [9] to print average of stack copy");
                 Console.WriteLine("Press  [Esc] to exit");
                 ConsoleKey key = Console.ReadKey(true).Key;
                 switch (key)
@@ -48,6 +50,14 @@
                         stack2.Print();
                         HoldConsole();
                         break;
+                    case ConsoleKey.D8:
+                        My_IO.Output(stack1.GetAverage());
+                        HoldConsole();
+                        break;
+                    case ConsoleKey.D9:
+                        My_IO.Output(stack2.GetAverage());
+                        HoldConsole();
+                        break;
                     case ConsoleKey.Escape:
                         running = false;
                         break;
@@ -59,7 +69,7 @@
             }
         }
 
-        public static void HoldConsole()
+        public static void HoldConsole()                                //prevents console from being cleared before pressing a key
         {
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
