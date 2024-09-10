@@ -11,7 +11,7 @@ namespace Stack_Task
         int MaxLength { get; set; }
         int Sum { get; set; }
         My_list Storage { get; set; }
-        My_stack(int length)
+        public My_stack(int length)
         {
             //Node CurrNode = Head;
             //for (int i = 0; i < length - 1; i++)
@@ -23,7 +23,7 @@ namespace Stack_Task
             this.Sum = 0;
             this.Storage = new My_list();
         }
-        My_stack(My_stack OrigStack)
+        public My_stack(My_stack OrigStack)
         {
             ////Node CurrNode = Head;
             ////Node OrigCurrNode = OrigStack.Head;
@@ -50,7 +50,8 @@ namespace Stack_Task
             //}
             this.MaxLength = OrigStack.MaxLength;
             this.Sum = OrigStack.Sum;
-            this.Storage = OrigStack.Storage.Copy();
+            if (OrigStack.GetCount() == 0) this.Storage = new My_list();
+            else this.Storage = OrigStack.Storage.Copy();
         }
         public void Push(int Input)
         {
