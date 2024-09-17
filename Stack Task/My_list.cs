@@ -78,13 +78,18 @@ namespace Stack_Task
 
         public My_list Copy()                   //creates an identical list
         {
-            My_list output = new My_list(this.GetHeadNode());
-            Node? currnode = this.Head.Next;
-            while (currnode != null)
+            My_list output;
+            if (this.GetLength() > 0)
             {
-                output.AddTailNode(currnode.Get());
-                currnode = currnode.Next;
+                output = new My_list(this.GetHeadNode());
+                Node? currnode = this.Head.Next;
+                while (currnode != null)
+                {
+                    output.AddTailNode(currnode.Get());
+                    currnode = currnode.Next;
+                }
             }
+            else { output = new My_list(); }
             return output;
         }
     }
