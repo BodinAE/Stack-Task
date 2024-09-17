@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\2024\\algo\\Stack Task\\Stack Task\\Stack Task.csproj",
+      "projectUniqueName": "E:\\2024\\algo\\Stack-Task\\Stack Task\\Stack Task.csproj",
       "projectName": "Stack Task",
-      "projectPath": "E:\\2024\\algo\\Stack Task\\Stack Task\\Stack Task.csproj",
+      "projectPath": "E:\\2024\\algo\\Stack-Task\\Stack Task\\Stack Task.csproj",
       "packagesPath": "C:\\Users\\fluff\\.nuget\\packages\\",
-      "outputPath": "E:\\2024\\algo\\Stack Task\\Stack Task\\obj\\",
+      "outputPath": "E:\\2024\\algo\\Stack-Task\\Stack Task\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fluff\\AppData\\Roaming\\NuGet\\NuGet.Config",

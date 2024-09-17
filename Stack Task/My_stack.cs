@@ -13,41 +13,12 @@ namespace Stack_Task
         My_list Storage { get; set; }
         public My_stack(int length)                     //creates an empty stack with a set max length
         {
-            //Node CurrNode = Head;
-            //for (int i = 0; i < length - 1; i++)
-            //{
-            //    CurrNode.Next = new Node();
-            //    CurrNode = CurrNode.Next;
-            //}
             this.MaxLength = length;
             this.Sum = 0;
             this.Storage = new My_list();
         }
         public My_stack(My_stack OrigStack)             //creates a copy of a stack
         {
-            ////Node CurrNode = Head;
-            ////Node OrigCurrNode = OrigStack.Head;
-            ////while (true)
-            ////{
-            ////    CurrNode = OrigCurrNode;
-            ////    OrigCurrNode = OrigCurrNode.Next;
-            ////    if (OrigCurrNode.Next == null)
-            ////    {
-            ////        CurrNode.Next = OrigCurrNode;
-            ////        break;
-            ////    }
-            ////    CurrNode.Next = new Node();
-            ////}
-
-            //int length = OrigStack.Length;
-            //Node CurrNode = Head;
-            //Node OrigCurrNode = OrigStack.Head;
-            //for (int i = 0; i < length; i++)
-            //{
-            //    CurrNode.Set(OrigCurrNode.Get());
-            //    CurrNode = CurrNode.Next;
-            //    OrigCurrNode = OrigCurrNode.Next;
-            //}
             this.MaxLength = OrigStack.MaxLength;
             this.Sum = OrigStack.Sum;
             this.Storage = OrigStack.Storage.Copy();

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\2024\\algo\\Stack-Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AEC21E0-9FC9-4BFB-9A92-9719FF5EDC2E}|Stack Task\\Stack Task.csproj|e:\\2024\\algo\\stack-task\\stack task\\my_stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AEC21E0-9FC9-4BFB-9A92-9719FF5EDC2E}|Stack Task\\Stack Task.csproj|solutionrelative:stack task\\my_stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "My_stack.cs",
+              "DocumentMoniker": "E:\\2024\\algo\\Stack-Task\\Stack Task\\My_stack.cs",
+              "RelativeDocumentMoniker": "Stack Task\\My_stack.cs",
+              "ToolTip": "E:\\2024\\algo\\Stack-Task\\Stack Task\\My_stack.cs",
+              "RelativeToolTip": "Stack Task\\My_stack.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:16:05.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
