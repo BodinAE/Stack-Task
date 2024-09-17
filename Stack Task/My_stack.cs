@@ -50,8 +50,7 @@ namespace Stack_Task
             //}
             this.MaxLength = OrigStack.MaxLength;
             this.Sum = OrigStack.Sum;
-            if (OrigStack.GetCount() == 0) this.Storage = new My_list();
-            else this.Storage = OrigStack.Storage.Copy();
+            this.Storage = OrigStack.Storage.Copy();
         }
         public void Push(int Input)                     //adds an element to the top
         {
